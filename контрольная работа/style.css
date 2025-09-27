@@ -1,0 +1,114 @@
+* {
+  text-decoration: none;
+}
+
+.body {
+      margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #040404;
+     color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: black;
+    background-color: #040404;
+  }
+
+.logo {
+  width: 130px;
+    height: 130px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.info {
+   width: 45%;
+   background: #ffcc00;
+   color: black;
+   padding: 20px;
+   border-radius: 8px;
+}
+
+.photo img {
+   width: 450px;
+   border-radius: 8px;
+}
+
+.menu {
+   padding: 20px;
+}
+
+.menu table {
+   width: 100%;
+   border-collapse: collapse;
+   background: rgba(255,255,255,0.1);
+}
+
+.menu th, .menu td {
+   padding: 10px;
+   border: 1px solid white;
+   text-align: center;
+}
+
+.dishes {
+   padding: 20px;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+ }
+
+.dish img {
+   width: 100%;
+   border-radius: 8px;
+}
+
+.dish p {
+   text-align: center;
+   margin-top: 5px;
+   font-size: 18px;
+}
+
+.section {
+   padding: 40px 20px;
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.warp {
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 24px;
+  width: 100%;
+}
+
+.int {
+   position: absolute; 
+   top: 0;   
+   left: 0;  
+   padding: 10px; 
+}
